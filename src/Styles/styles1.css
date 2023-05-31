@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-h1,h2,h3,p{
+h1,h2,h3,h4,p,ul{
 margin: 0;
 }
 
@@ -220,6 +220,7 @@ margin: 0;
     background-color: #1E2939;
     padding-top: 40px;
     width: 500px;
+    
     font-size: 14px;
     color: #595959;
 }
@@ -230,7 +231,8 @@ margin: 0;
   border-radius: 50%;
 }
 .contacts {
-    margin-left: 60px;
+   
+    margin-left: 45px;
     margin-bottom: 30px;
     padding: 0;
 }
@@ -240,7 +242,7 @@ margin: 0;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    margin: 0 0 10px 0px;
+    margin-bottom:  15px ;
 }
 .contacts__title {
     margin-left: 20px;
@@ -265,6 +267,7 @@ margin: 0;
         list-style: none;
         padding:  0;
         margin-left: 20px;
+        font-size: 16px;
 
     }
     
@@ -327,6 +330,7 @@ margin: 0;
     .cover-letter-btn{
         display: flex;
         margin: 0 auto;
+        margin-top: 45px;
         padding: 5px 10px ;
         border: 2px solid  #FB6D3A;
         background-color: #FB6D3A;;
@@ -342,10 +346,10 @@ margin: 0;
 }
     .cover-btn-toresume{
         display: flex;
-        margin-bottom: 15px;
+        margin-top: 45px;
         padding: 5px 10px ;
-        border: 2px solid  #FB6D3A;
-        background-color: #FB6D3A;;
+        border: 2px solid  #ffffff;
+        background-color: #ffffff;;
         border-radius: 15px;
     }
     .cover-letter {
@@ -365,7 +369,7 @@ margin: 0;
     }
     
     .cover__title {
-        margin: 0;
+        margin-bottom: 20px;
         font-size: 70px;
         color: #eee;
     }
@@ -375,6 +379,7 @@ margin: 0;
         font-size: 1.2em;
         font-weight: 600;
         list-style: none;
+        padding: 0;
         
     }
 
