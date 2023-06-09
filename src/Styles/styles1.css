@@ -8,11 +8,16 @@ body {
 h1,h2,h3,h4,p,ul{
 margin: 0;
 }
+a {
+    text-decoration: none;
+    list-style: none;
+}
 
 .list {
     padding: 0;
     list-style: none;
     margin-left: 0;
+    
 }
 
 .main {
@@ -203,7 +208,7 @@ margin: 0;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #000000;
     margin-bottom: 10px;
 }
 .department {
@@ -227,7 +232,7 @@ margin: 0;
 .photo {
     display: block;
     width: 250px;
-    margin:0 auto 100px;
+    margin:0 auto 50px;
   border-radius: 50%;
 }
 .contacts {
@@ -300,7 +305,7 @@ margin: 0;
     margin-left: 15px;
     }
     .tech-skills-item {
-    color: #FB6D3A;
+    color:#595959;
     }
     .tech-skills-text {
     color: #FFFFFF;
@@ -318,7 +323,7 @@ margin: 0;
     margin-left: 15px;
    }
    .soft-skills-item {
-    color: #FB6D3A;
+    color:  #595959;
     }
     .soft-skills-text {
     color: #FFFFFF;
@@ -326,6 +331,17 @@ margin: 0;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;     
+    }
+    .address {
+        padding-top: 20px;
+        margin-left: 18px;
+        font-size: 14px;
+        line-height: 24px;  
+    }
+    .address-list>li{
+        text-decoration: none;
+        list-style: none;
+
     }
     .cover-letter-btn{
         display: flex;
