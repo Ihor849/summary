@@ -32,7 +32,7 @@ a {
     padding: 25px 80px;
 }
 .about {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 .about-position {
     display: inline-block;
@@ -41,11 +41,11 @@ a {
     font-weight: bold;
     font-size: 16px;
     line-height: 17px;
-    color: #000;
+    color: #000000;
     background-color: #fff;
 
     border-radius: 16px;
-    padding: 10px 20px;
+    padding: 10px 0px;
    /* margin: 15px auto; */
 
 }
@@ -57,17 +57,19 @@ a {
     color: #000000;
     margin-bottom: 25px;
 }
+.projects-container{
+    margin-bottom: 35px;
+}
 .description-container {
-    
     max-width: 600px;
 }
 .description {
     
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #595959;
+    color: #000000;
    margin: 0;
 
 }
@@ -78,15 +80,15 @@ a {
 
 .about-description {
     /* display: inline; */
-    color: #000;
+    color:#000000;
     /* background-color: #777; */
     border-radius: 14px;
-    padding: 5px 20px;
+    padding: 5px 0px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #595959;
+    color: #000000;
 
     /* -webkit-box-decoration-break: clone; */
 }
@@ -129,9 +131,9 @@ a {
 .project-link {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #595959;
+    color:#000000;
 }
 .project-link {
     margin-left: 10px;
@@ -157,41 +159,43 @@ a {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color:  #000000;
     margin-left: 10px;
 }
 .period {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
-    color: #A8A8A8;
+    color:#000000;
     margin-bottom: 10px;
 }
 .line {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
     color: #000000;
 }
 .work-list {
-    padding: 0;
-    /* margin-left: 15px; */
+    padding: 0;    
     list-style: none;
 }
 .worklist-item {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #595959;
+    color: #000000;
 }
 /* education styles */
 .link-goit {
     padding: 0;
     margin-right: 8px;
     display: inline-block;
+}
+.education-blok{
+    margin-top: 35px;
 }
 
 .education {
@@ -200,7 +204,6 @@ a {
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    margin-top: 43px;
     margin-bottom: 10px;
 }
 .university, .goit {
@@ -214,7 +217,7 @@ a {
 .department {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     color: #000000;
     margin-bottom: 10px;
@@ -226,7 +229,7 @@ a {
     padding-top: 40px;
     width: 500px;
     
-    font-size: 14px;
+    font-size: 16px;
     color: #595959;
 }
 .photo {
@@ -247,7 +250,7 @@ a {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom:  15px ;
+    margin-bottom:  10px ;
 }
 .contacts__title {
     margin-left: 20px;
@@ -260,7 +263,7 @@ a {
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     margin-right: 10px;
     }
@@ -296,7 +299,7 @@ a {
     fill: #FFFFFF;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;    
     }
     .tech-skills-list {
@@ -311,11 +314,17 @@ a {
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;     
     }
     .soft-skills {
         margin-left: 80px;
+        margin-top: 15px;
+        color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
    }
    .soft-skills-list {
     color: #FFFFFF;
@@ -329,14 +338,29 @@ a {
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;     
     }
     .address {
         padding-top: 20px;
-        margin-left: 18px;
-        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
         line-height: 24px;  
+    }
+    .address-location{
+        color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 40px;
+    padding: 0;
+    }
+    .address-linck{
+        text-decoration: none;
+        list-style: none; 
+        color: #eee;
     }
     .address-list>li{
         text-decoration: none;
